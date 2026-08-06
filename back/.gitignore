@@ -1,7 +1,20 @@
+# Python
 __pycache__/
 *.py[cod]
+
+# Variables de entorno
 .env
+
+# Entornos virtuales
 .venv/
 venv/
+
+# Archivos temporales
 uploads/
+
+# Logs
 *.log
+
+# Modelos de entrenamiento
+models/*.pt
+models/*.pth

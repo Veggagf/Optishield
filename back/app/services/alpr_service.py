@@ -15,10 +15,8 @@ class ALPRService:
             return
 
         self.motor = MotorALPR(settings.yolo_model_path)
-        print(
-            "Motor ALPR cargado correctamente desde: "
-            f"{settings.yolo_model_path}"
-        )
+
+        print("Motor ALPR cargado correctamente desde: " f"{settings.yolo_model_path}")
 
     def unload(self) -> None:
         self.motor = None

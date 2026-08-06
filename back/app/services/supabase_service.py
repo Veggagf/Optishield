@@ -1,8 +1,6 @@
 from datetime import datetime, timezone
 from typing import Any
-
 from supabase import Client, create_client
-
 from app.core.config import settings
 
 
